@@ -1,0 +1,41 @@
+.file-structure{
+    padding: 18px;
+}
+
+.file-node {
+    color: #444;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+.file-node:hover {
+    color: #4169E1; /* Royal Blue */
+    text-decoration: underline #4169E1;    
+}
+
+
+.folder-node {
+    color: #222;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.folder-node:hover {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+    margin: 5px 0;
+}
+
+li {
+    margin: 3px 0;
+    padding-left: 5px;
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+}
