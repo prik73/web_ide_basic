@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run copy-ace && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "copy-ace": "cp -r node_modules/ace-builds/src-noconflict public/ace-builds"
   },
   "dependencies": {
     "@xterm/xterm": "^5.5.0",
